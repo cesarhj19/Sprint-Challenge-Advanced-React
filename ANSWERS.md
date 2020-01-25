@@ -1,4 +1,10 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+	- If you need to keep the state you would use classes because they offer more functionality and functions are stateless components
 - [ ] Name three lifecycle methods and their purposes.
+	- Mounting Phase = componentWillMount() - component is being built and the render method is invoked
+	- Updating Phase = componentDidMount() - change the component's state 
+	- Un-mounting Phase = componentWillUnMount() - remove the component from the screen
 - [ ] What is the purpose of a custom hook?
+	- Custom hooks allow you to use state without creating a class and you can use the logic with other functions without having to rewrite the same code
 - [ ] Why is it important to test our apps?
+	- It's important to test our apps to make sure they are fully functional and work how they are supposed to work so the user can have a better experience
